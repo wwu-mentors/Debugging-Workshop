@@ -10,28 +10,28 @@ public class Main {
    }
    
    public static void walkPrettyArray(){
-      int[] array;
+      int[] arrayW;
       
       //create and initialize an array
-      array = new int[3];
-      for (int j = 0; j != array.length; j++){
-         array[j] = j;
+      arrayW = new int[3];
+      for (int j = 0; j != arrayW.length; j++){
+         arrayW[j] = j;
       }
       
       //prints out object ID, WRONG!
-      System.out.println(array);
+      System.out.println(arrayW);
       
       //uses static class to "pretty print"
-      System.out.println(Arrays.toString(array));
+      System.out.println(Arrays.toString(arrayW));
       
    }
    
    public static void bozo(){
 
-      int[] array = new int[5];
+      int[] arrayB = new int[5];
       // populate array
-      for (int j = 0; j <= array.length; j++){
-         array[j] = j;
+      for (int j = 0; j <= arrayB.length; j++){
+         arrayB[j] = j;
       }
    }
    
